@@ -19,6 +19,7 @@
     "test": "export PLAYWRIGHT=True && pnpm exec playwright test"
   },
   "dependencies": {
+    "@ai-sdk/google": "^1.2.18",
     "@ai-sdk/react": "^1.2.11",
     "@ai-sdk/xai": "^1.2.15",
     "@codemirror/lang-javascript": "^6.2.2",
@@ -86,6 +87,7 @@
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7",
     "usehooks-ts": "^3.1.0",
+    "vercel": "^42.1.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
